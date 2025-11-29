@@ -1,0 +1,120 @@
+D:\PolicyApp>javac PolicyHolder.java PolicyManagementApp.java
+
+D:\PolicyApp>java PolicyManagementApp
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 1
+Enter Policy ID: 1
+Enter Name: Krishna
+Enter Investment Amount: 700000
+Enter Years In Force: 5
+Policy Added Successfully!
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 1
+Enter Policy ID: 2
+Enter Name: Aayush Garg
+Enter Investment Amount: 3000000
+Enter Years In Force: 4
+Policy Added Successfully!
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 2
+--------- All Policies ---------
+ID: 1, Name: Krishna, Amount: 700000.0, Years: 5
+ID: 2, Name: Aayush Garg, Amount: 3000000.0, Years: 4
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 3
+------ High Value Policy Holders (Investment > 1,00,000) ------
+Policy ID: 1, Name: Krishna, Investment: 700000.0, Years In Force: 5
+Policy ID: 2, Name: Aayush Garg, Investment: 3000000.0, Years In Force: 4
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 4
+Enter Investment Amount: 4000000
+Enter Years: 3
+Future Value = 5038848.000000001
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 5
+Enter Policy ID to Search: 2
+Policy Found -> ID: 2, Name: Aayush Garg, Amount: 3000000.0, Years: 4
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 6
+Enter Policy ID to Update: 2
+Enter New Name: Anurag Singh
+Enter New Amount: 9000000000
+Enter New Years: 6
+Policy Updated Successfully!
+
+======= Policy Holder Management System =======
+1. Add Policy Holder
+2. Display All Policies
+3. Find High Value Policies
+4. Calculate Future Value
+5. Search Policy by ID
+6. Update Policy
+7. Delete Policy
+8. Exit
+Enter Choice: 8
+Exiting Application... Thank you!
+
+D:\PolicyApp>
