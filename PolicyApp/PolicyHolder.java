@@ -4,7 +4,6 @@ public class PolicyHolder {
     private double investAmount;
     private int yearsInForce;
 
-    // Constructor
     public PolicyHolder(String policyId, String name, double investAmount, int yearsInForce) {
         this.policyId = policyId;
         this.name = name;
@@ -45,3 +44,4 @@ public class PolicyHolder {
         this.yearsInForce = yearsInForce;
     }
 }
+
